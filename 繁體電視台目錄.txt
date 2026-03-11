@@ -35,7 +35,6 @@ HOY 國際財經臺
 HOY TV
 HOY 資訊臺
 HOY體育臺
-亞洲聯賽冠軍盃二級聯賽半準決賽次回合 - 拉查武裏 對 大阪飛腳 (晚上8:10)
 HOY怪談臺
 HOY生活臺
 HOY劇集臺
@@ -1629,7 +1628,6 @@ SiCAR愛車酷
 BBC_First_HD
 Smithsonian_Channel
 BBC_Brit_HD
-KUDADA
 TV1_HD
 TV2_HD
 TV3

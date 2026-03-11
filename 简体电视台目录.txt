@@ -35,7 +35,6 @@ HOY 国际财经台
 HOY TV
 HOY 资讯台
 HOY体育台
-亚洲联赛冠军杯二级联赛半准决赛次回合 - 拉查武里 对 大阪飞脚 (晚上8:10)
 HOY怪谈台
 HOY生活台
 HOY剧集台
@@ -1629,7 +1628,6 @@ SiCAR爱车酷
 BBC_First_HD
 Smithsonian_Channel
 BBC_Brit_HD
-KUDADA
 TV1_HD
 TV2_HD
 TV3
