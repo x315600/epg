@@ -216,7 +216,7 @@ MOMO亲子台
 三立都会HD
 华艺中文台
 东森综合HD
-超视
+超视HD
 东森购物2台
 momo2台
 中天综合HD
@@ -226,7 +226,7 @@ MUCH TV
 东森戏剧HD
 八大戏剧HD
 TVBS欢乐HD
-纬来戏剧台
+纬来戏剧
 高点电视台
 JET综合
 东森购物3台
@@ -269,7 +269,7 @@ TBC台中生活台
 镜电视新闻台
 台湾艺术台
 乐视台
-非凡商业台
+非凡商业HD
 三立财经新闻台
 冠军电视台
 运通财经综合台
@@ -320,7 +320,7 @@ Global Trekker
 靖天综合台
 宝岛文化
 靖天日本台靖天
-TaiWan Plus
+Taiwan Plus
 BBC News
 民视第一台
 民视台湾台
@@ -328,7 +328,7 @@ BBC News
 台视新闻台
 台视财经台
 台视综合台
-Bloomberg Television
+Bloomberg News
 TV5MONDE
 Channel News Asia
 韩国阿里郎
@@ -616,7 +616,7 @@ Now Sports 681
 Now 高尔夫2
 Now 高尔夫3
 Lucky 688
-NHK World Premium
+NHK HD
 TV5MONDE Style
 TV5MONDE ASIE
 France 24 (French)
@@ -1008,12 +1008,14 @@ TLC 旅游生活频道
 三立都会台
 韩国娱乐KMTV
 东森综合台
+超视
 中天综合台
 东风卫视台
 中天娱乐台
 东森戏剧台
 八大戏剧台
 TVBS欢乐台
+纬来戏剧台
 momo 1台
 壹电视新闻台
 era news 年代新闻
@@ -1040,6 +1042,7 @@ MTV综合电视台
 ANIMAX
 寰宇新闻台
 JET TV
+非凡商业台
 华藏卫星电视台
 世界卫星电视台
 NHK WORLD PREMIUM
@@ -1056,6 +1059,7 @@ trace sport star运动明星
 红豆2台
 亚洲旅游台有线
 智林体育台有线
+Bloomberg Television
 BBC World News
 TaiwanPlus有线
 LOVE NATURE有线
@@ -1556,6 +1560,35 @@ SiCAR爱车酷
 纾压雷雨声
 疗愈下雨声
 放松的爵士午后
+睛彩河北
+河北杂技频道
+石家庄新闻综合
+石家庄文化娱乐
+承德新闻综合
+承德旅游文化
+张家口新闻综合
+张家口公共
+秦皇岛新闻综合
+秦皇岛民生
+唐山新闻综合
+唐山生活服务
+唐山影视
+唐山公共
+廊坊新闻
+廊坊公共
+沧州新闻综合
+沧州公共
+沧州影视娱乐
+保定新闻综合
+保定公共频道
+保定生活健康
+衡水新闻综合
+衡水经济科教
+邢台综合
+邢台城市生活
+邯郸新闻综合
+邯郸公共
+邯郸科技教育
 广州综合
 广州新闻
 深圳都市
@@ -1794,6 +1827,7 @@ Music TV
 Music TV HD
 Muslim TV
 NHK World
+NHK World Premium
 Nick Jr. HD
 Nickelodeon Jr
 ONE
