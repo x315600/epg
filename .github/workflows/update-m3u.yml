@@ -16,7 +16,7 @@ jobs:
       - name: Download remote youtubelocal.m3u
         run: |
           curl -L -o youtubelocal.m3u \
-            "https://raw.githubusercontent.com/zzq1234567890/epg/refs/heads/main/youtubelocal.m3u"
+            "https://raw.githubusercontent.com/zzq1234567890/epg/refs/heads/main/youtubeworld.m3u"
 
       - name: Install yt-dlp
         run: |
