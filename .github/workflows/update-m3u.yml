@@ -1,0 +1,37 @@
+name: Update YouTube Direct M3U
+
+on:
+  schedule:
+    # 每2小时运行一次（与附件后台间隔一致）
+    - cron: '0 */2 * * *'
+  workflow_dispatch:  # 允许手动触发
+
+jobs:
+  generate-m3u:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download remote youtubelocal.m3u
+        run: |
+          curl -L -o youtubelocal.m3u \
+            "https://raw.githubusercontent.com/zzq1234567890/epg/refs/heads/main/youtubelocal.m3u"
+
+      - name: Install yt-dlp
+        run: |
+          sudo curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp
+          sudo chmod a+rx /usr/local/bin/yt-dlp
+
+      - name: Generate jx.m3u
+        run: |
+          chmod +x ./generate_m3u.sh
+          ./generate_m3u.sh
+
+      - name: Commit and push if changed
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add jx.m3u
+          git diff --quiet && git diff --staged --quiet || git commit -m "Auto update jx.m3u"
+          git push
