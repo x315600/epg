@@ -2,7 +2,7 @@ name: Update YouTube Direct M3U
 
 on:
   schedule:
-    # 每2小时运行一次（与附件后台间隔一致）
+    # 每2小时运行一次
     - cron: '0 */2 * * *'
   workflow_dispatch:  # 允许手动触发
 
@@ -23,13 +23,11 @@ jobs:
           sudo curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp
           sudo chmod a+rx /usr/local/bin/yt-dlp
 
-      # 可选安装 ffmpeg（获取直链一般不需要，但保留以应对特殊情况）
       - name: Install ffmpeg (optional)
         run: |
           sudo apt-get update
           sudo apt-get install -y ffmpeg
 
-      # 关键步骤：使用增强参数解析直播，并输出详细错误
       - name: Generate you.m3u by parsing YouTube live streams
         run: |
           INPUT="youtubeworld.m3u"
@@ -40,8 +38,13 @@ jobs:
           success=0
           fail=0
           
-          # 增强的 yt-dlp 参数：模拟真实浏览器，使用安卓客户端规避限制
-          YT_DLP_OPTS="--user-agent \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36\" --add-header \"Accept-Language: en-US,en;q=0.9\" --extractor-args \"youtube:player_client=android\" --no-playlist"
+          # 使用 Bash 数组安全地定义参数（已修复引号问题）
+          YT_DLP_OPTS=(
+            --user-agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+            --add-header "Accept-Language: en-US,en;q=0.9"
+            --extractor-args "youtube:player_client=android"
+            --no-playlist
+          )
           
           while IFS= read -r line || [[ -n "$line" ]]; do
             # 去除首尾空白字符
@@ -59,7 +62,7 @@ jobs:
                 if [[ "$url" =~ (youtube\.com|youtu\.be) ]]; then
                   echo "处理 YouTube URL: $url"
                   # 使用增强参数获取直链，并将错误输出到临时文件
-                  direct_url=$(yt-dlp -g $YT_DLP_OPTS "$url" 2>yt_error.log | head -n 1)
+                  direct_url=$(yt-dlp -g "${YT_DLP_OPTS[@]}" "$url" 2>yt_error.log | head -n 1)
                   if [[ -n "$direct_url" ]] && [[ "$direct_url" =~ ^https?:// ]]; then
                     echo "  成功获取: $direct_url"
                     echo "$current_extinf" >> "$OUTPUT"
@@ -79,9 +82,6 @@ jobs:
               else
                 echo "忽略无 EXTINF 的 URL: $url"
               fi
-            else
-              # 其他 # 开头的行忽略
-              :
             fi
           done < "$INPUT"
           
