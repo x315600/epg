@@ -2,7 +2,7 @@ name: Update YouTube Direct M3U
 
 on:
   schedule:
-    # 每2小时运行一次（与附件后台间隔一致）
+    # 每2小时运行一次
     - cron: '0 */2 * * *'
   workflow_dispatch:  # 允许手动触发
 
@@ -13,9 +13,9 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Download remote youtubelocal.m3u
+      - name: Download remote youtubeworld.m3u
         run: |
-          curl -L -o youtubelocal.m3u \
+          curl -L -o youtubeworld.m3u \
             "https://raw.githubusercontent.com/zzq1234567890/epg/refs/heads/main/youtubeworld.m3u"
 
       - name: Install yt-dlp
@@ -23,15 +23,71 @@ jobs:
           sudo curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp
           sudo chmod a+rx /usr/local/bin/yt-dlp
 
-      - name: Generate jx.m3u
+      # 可选安装 ffmpeg（某些直播可能需要，但获取直链一般不需要）
+      - name: Install ffmpeg (optional)
         run: |
-          chmod +x ./generate_m3u.sh
-          ./generate_m3u.sh
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+
+      - name: Generate you.m3u by parsing YouTube live streams
+        run: |
+          INPUT="youtubeworld.m3u"
+          OUTPUT="you.m3u"
+          
+          echo "#EXTM3U" > "$OUTPUT"
+          current_extinf=""
+          success=0
+          fail=0
+          
+          while IFS= read -r line || [[ -n "$line" ]]; do
+            # 去除首尾空白字符（包括回车）
+            line=$(echo "$line" | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')
+            
+            if [[ "$line" =~ ^#EXTINF: ]]; then
+              # 保存当前 EXTINF 行，等待后面的 URL
+              current_extinf="$line"
+            elif [[ -n "$line" ]] && [[ ! "$line" =~ ^# ]]; then
+              # 这是一个 URL 行
+              url="$line"
+              # 只有前面有 EXTINF 时才处理
+              if [[ -n "$current_extinf" ]]; then
+                # 检查是否为 YouTube 链接
+                if [[ "$url" =~ (youtube\.com|youtu\.be) ]]; then
+                  echo "处理 YouTube URL: $url"
+                  # 使用 yt-dlp 获取直播直链（取第一个返回的 URL）
+                  direct_url=$(yt-dlp -g --no-warnings "$url" 2>/dev/null | head -n 1)
+                  if [[ -n "$direct_url" ]] && [[ "$direct_url" =~ ^https?:// ]]; then
+                    echo "  成功获取: $direct_url"
+                    echo "$current_extinf" >> "$OUTPUT"
+                    echo "$direct_url" >> "$OUTPUT"
+                    ((success++))
+                  else
+                    echo "  获取直链失败，跳过该条目"
+                    ((fail++))
+                  fi
+                else
+                  # 非 YouTube 链接，原样保留（例如其他流媒体）
+                  echo "$current_extinf" >> "$OUTPUT"
+                  echo "$url" >> "$OUTPUT"
+                fi
+                current_extinf=""  # 重置，避免重复使用
+              else
+                # 没有 EXTINF 的 URL 行，忽略
+                echo "忽略无 EXTINF 的 URL: $url"
+              fi
+            else
+              # 其他 # 开头的行（如 #EXTGRP, #EXTM3U 等）忽略，因为我们已经写了 #EXTM3U
+              :
+            fi
+          done < "$INPUT"
+          
+          echo "处理完成。成功获取直链: $success，失败: $fail"
+          echo "输出文件: $OUTPUT"
 
       - name: Commit and push if changed
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add jx.m3u
-          git diff --quiet && git diff --staged --quiet || git commit -m "Auto update jx.m3u"
+          git add you.m3u
+          git diff --quiet && git diff --staged --quiet || git commit -m "Auto update you.m3u"
           git push
