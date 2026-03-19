@@ -176,6 +176,7 @@ elta體育max 7
 elta體育max 8
 elta日韓
 生命電視臺
+奧林匹克官網直播
 三立國際臺
 TVB翡翠娛樂臺(TVBe)
 翡翠一臺(TVB1)
@@ -1348,7 +1349,6 @@ Smart知識臺
 龍華經典臺
 龍華電影臺
 咪咕體育
-奧林匹克官網直播
 KBS 1
 KBS 2
 KBS WORLD
