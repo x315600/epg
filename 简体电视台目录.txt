@@ -1740,7 +1740,7 @@ beIN_SPORTS_3
 W-Sport
 Astro_Golf
 CricBuzz
-Premier_Sports_Rugby
+Premier_Sports
 HITZ_FM
 MY_FM
 LITE_FM
