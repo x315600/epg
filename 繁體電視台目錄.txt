@@ -1072,7 +1072,6 @@ My Cinema Europe HD 我的歐洲電影有線
 華藝MBC綜合臺有線
 靖天映畫有線
 靖天電影有線
-MTV Live音樂頻道
 靖洋卡通有線
 Eurosport
 博斯無限臺有線
@@ -1087,6 +1086,7 @@ Pandora潘朵啦高畫質粉紅臺
 HOT頻道
 HAPPY頻道
 驚豔成人電影臺
+wedotv Movies
 JStar極限臺電影頻道
 AsianFoodNetwork亞洲美食頻道
 BBCEarth
