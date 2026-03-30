@@ -32,7 +32,6 @@ KBSWorld
 中國教育-2
 家庭理財
 HOY 國際財經臺
-HOY TV
 HOY 資訊臺
 HOY體育臺
 HOY怪談臺
@@ -1315,8 +1314,6 @@ TVBS看板人物-FastTV飛速看
 爸媽囧很大-FastTV飛速看
 醫學大聯盟-FastTV飛速看
 GoGoTaiwan-FastTV飛速看
-新春歡樂不斷電-FastTV飛速看
-新春神馬攏賀 添財衝衝衝-FastTV飛速看
 2025雙北世壯運-FastTV飛速看
 一起追韓星-FastTV飛速看
 韓流美食料理秀-FastTV飛速看
@@ -1378,7 +1375,6 @@ EBS EDUCATION
 喀秋莎
 紫金國際臺
 鳳凰衛視資訊臺
-NHK 日本國家電視臺
 SPOTV  
 SPOTV   2
 球王臺

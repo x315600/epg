@@ -32,7 +32,6 @@ KBSWorld
 中国教育-2
 家庭理财
 HOY 国际财经台
-HOY TV
 HOY 资讯台
 HOY体育台
 HOY怪谈台
@@ -1315,8 +1314,6 @@ TVBS看板人物-FastTV飞速看
 爸妈囧很大-FastTV飞速看
 医学大联盟-FastTV飞速看
 GoGoTaiwan-FastTV飞速看
-新春欢乐不断电-FastTV飞速看
-新春神马拢贺 添财冲冲冲-FastTV飞速看
 2025双北世壮运-FastTV飞速看
 一起追韩星-FastTV飞速看
 韩流美食料理秀-FastTV飞速看
@@ -1378,7 +1375,6 @@ EBS EDUCATION
 喀秋莎
 紫金国际台
 凤凰卫视资讯台
-NHK 日本国家电视台
 SPOTV  
 SPOTV   2
 球王台
