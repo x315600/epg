@@ -34,11 +34,6 @@ KBSWorld
 HOY 国际财经台
 HOY TV
 HOY 资讯台
-HOY体育台
-HOY怪谈台
-HOY生活台
-HOY剧集台
-MotorVision
 翡翠台
 翡翠台(国际版)
 无线新闻(国际版)
@@ -1388,16 +1383,11 @@ HITS电影台
 ROCK Entertainme
 KIX电影台
 Outdoor Channel
-历史高清频道
 Global Trekker探索世界频道
 罪案侦辑频道
 高清生活时光
-彭博资讯
 TV5Monde 法国电视台
-FOX 新闻台
-ABC澳大利亚电视台
 凤凰卫视香港台
-KBS韩国国际综合高清频道
 daystar
 公视金奖台
 空中英语教室HD频道
@@ -1676,6 +1666,7 @@ NHK_World_Premium
 HITS_MOVIES_HD
 Astro_Boo
 Astro_Showtime
+Astro_FAM_Time
 Astro_Showcase
 Rock_Action
 Rock_X_Stream
@@ -1728,6 +1719,7 @@ Astro_Football
 Astro_Badminton
 Astro_Sports_Plus
 Astro_Sports_Plus_2
+Astro_Sports_Plus_3
 beIN_SPORTS_1
 beIN_SPORTS_2
 beIN_SPORTS_3
