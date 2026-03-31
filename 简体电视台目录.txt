@@ -32,7 +32,6 @@ KBSWorld
 中国教育-2
 家庭理财
 HOY 国际财经台
-HOY TV
 HOY 资讯台
 翡翠台
 翡翠台(国际版)
@@ -1103,6 +1102,7 @@ DreamWorks
 EUROSPORT
 GinxTV电竞频道
 GlobalTrekker
+GlobalTrekker(免费)
 HamiWBC1台
 HamiWBC2台
 Hami体育1台
@@ -1128,7 +1128,6 @@ PETCLUBTV
 ROCKAction
 ROCKEntertainment
 ROCKXStream
-ROCKXStream(免费)
 TRACESportStars
 TraceUrban
 TravelChannel
@@ -1169,9 +1168,9 @@ WarnerTV
 民视综艺台
 民视综艺台(免费)
 空中英语教室
+空中英语教室(免费)
 罪案侦缉频道
 华视主频
-华视新闻资讯台(免费)
 猪哥亮歌厅秀
 采昌影剧台
 金光布袋戏
