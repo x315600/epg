@@ -1723,7 +1723,6 @@ Astro_Football
 Astro_Badminton
 Astro_Sports_Plus
 Astro_Sports_Plus_2
-Astro_Sports_Plus_3
 beIN_SPORTS_1
 beIN_SPORTS_2
 beIN_SPORTS_3
