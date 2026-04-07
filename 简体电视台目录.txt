@@ -33,6 +33,7 @@ KBSWorld
 HOY 国际财经台
 HOY TV
 HOY 资讯台
+亚洲篮球冠军联赛东亚区资格赛 - 南华 对 新北国王 (晚上7:55)
 翡翠台
 翡翠台(国际版)
 无线新闻(国际版)
@@ -1319,6 +1320,7 @@ HahaTai 哈哈台-FastTV飞速看
 金光布袋戏-FastTV飞速看
 超人力霸王《TV版》FastTV飞速看
 超人力霸王《剧场版》FastTV飞速看
+哆啦A梦-FastTV飞速看
 经典卡通-FastTV飞速看
 免费精选动画-FastTV飞速看
 经典迪士尼-FastTV飞速看

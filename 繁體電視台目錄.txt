@@ -33,6 +33,7 @@ KBSWorld
 HOY 國際財經臺
 HOY TV
 HOY 資訊臺
+亞洲籃球冠軍聯賽東亞區資格賽 - 南華 對 新北國王 (晚上7:55)
 翡翠臺
 翡翠臺(國際版)
 無線新聞(國際版)
@@ -1319,6 +1320,7 @@ HahaTai 哈哈臺-FastTV飛速看
 金光布袋戲-FastTV飛速看
 超人力霸王《TV版》FastTV飛速看
 超人力霸王《劇場版》FastTV飛速看
+哆啦A夢-FastTV飛速看
 經典卡通-FastTV飛速看
 免費精選動畫-FastTV飛速看
 經典迪士尼-FastTV飛速看
