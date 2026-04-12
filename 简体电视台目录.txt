@@ -31,7 +31,6 @@ KBSWorld
 中国教育-2
 家庭理财
 HOY 国际财经台
-HOY TV
 HOY 资讯台
 翡翠台
 翡翠台(国际版)
@@ -1082,7 +1081,6 @@ HAPPY频道
 惊艳成人电影台
 wedotv Movies
 JStar极限台电影频道
-2026屏东三大日音乐节
 AsianFoodNetwork亚洲美食频道
 BBCEarth
 BBCLifestyle
