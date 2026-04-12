@@ -31,6 +31,7 @@ KBSWorld
 中國教育-2
 家庭理財
 HOY 國際財經臺
+HOY TV
 HOY 資訊臺
 翡翠臺
 翡翠臺(國際版)
@@ -1370,6 +1371,7 @@ EBS EDUCATION
 紫金國際臺
 鳳凰衛視資訊臺
 NHK 日本國家電視臺
+SPOTV  
 SPOTV   2
 球王臺
 球迷臺
