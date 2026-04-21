@@ -3062,8 +3062,8 @@
       ]
     },
     {
-      "channel_id": "HAPPY",
-      "channel_name": "HAPPY",
+      "channel_id": "Happy",
+      "channel_name": "Happy",
       "program_count": 24,
       "days_count": 2,
       "date_range": "2025-11-30~2025-12-01",
@@ -3073,8 +3073,8 @@
       ]
     },
     {
-      "channel_id": "HAPPY頻道",
-      "channel_name": "HAPPY頻道",
+      "channel_id": "Happy",
+      "channel_name": "Happy",
       "program_count": 24,
       "days_count": 2,
       "date_range": "2025-11-30~2025-12-01",
@@ -3271,8 +3271,8 @@
       ]
     },
     {
-      "channel_id": "HGTV居家樂活頻道",
-      "channel_name": "HGTV居家樂活頻道",
+      "channel_id": "HGTV居家乐活",
+      "channel_name": "HGTV居家乐活",
       "program_count": 136,
       "days_count": 3,
       "date_range": "2025-11-29~2025-12-01",
@@ -3836,8 +3836,8 @@
       ]
     },
     {
-      "channel_id": "JStar極限臺電影頻道",
-      "channel_name": "JStar極限臺電影頻道",
+      "channel_id": "极限电影",
+      "channel_name": "极限电影",
       "program_count": 28,
       "days_count": 2,
       "date_range": "2025-11-30~2025-12-01",
@@ -4102,8 +4102,8 @@
       ]
     },
     {
-      "channel_id": "K頻道",
-      "channel_name": "K頻道",
+      "channel_id": "彩虹K",
+      "channel_name": "彩虹K",
       "program_count": 42,
       "days_count": 2,
       "date_range": "2025-11-30~2025-12-01",
@@ -5710,8 +5710,8 @@
       ]
     },
     {
-      "channel_id": "Pandora潘朵啦高畫質玩美臺",
-      "channel_name": "Pandora潘朵啦高畫質玩美臺",
+      "channel_id": "潘朵啦玩美",
+      "channel_name": "潘朵啦玩美",
       "program_count": 24,
       "days_count": 2,
       "date_range": "2025-11-30~2025-12-01",
@@ -5721,8 +5721,8 @@
       ]
     },
     {
-      "channel_id": "Pandora潘朵啦高畫質粉紅臺",
-      "channel_name": "Pandora潘朵啦高畫質粉紅臺",
+      "channel_id": "潘朵啦粉红",
+      "channel_name": "潘朵啦粉红",
       "program_count": 24,
       "days_count": 2,
       "date_range": "2025-11-30~2025-12-01",
@@ -12373,8 +12373,8 @@
       ]
     },
     {
-      "channel_id": "居家樂活頻道香港",
-      "channel_name": "居家樂活頻道香港",
+      "channel_id": "居家乐活香港",
+      "channel_name": "居家乐活香港",
       "program_count": 2,
       "days_count": 2,
       "date_range": "2025-11-30~2025-12-01",
@@ -12946,8 +12946,8 @@
       ]
     },
     {
-      "channel_id": "彩虹E臺",
-      "channel_name": "彩虹E臺",
+      "channel_id": "彩虹E",
+      "channel_name": "彩虹E",
       "program_count": 18,
       "days_count": 2,
       "date_range": "2025-11-30~2025-12-01",
@@ -12957,8 +12957,8 @@
       ]
     },
     {
-      "channel_id": "彩虹E頻道",
-      "channel_name": "彩虹E頻道",
+      "channel_id": "彩虹E",
+      "channel_name": "彩虹E",
       "program_count": 18,
       "days_count": 2,
       "date_range": "2025-11-30~2025-12-01",
@@ -12968,8 +12968,8 @@
       ]
     },
     {
-      "channel_id": "彩虹Movie臺",
-      "channel_name": "彩虹Movie臺",
+      "channel_id": "彩虹电影",
+      "channel_name": "彩虹电影",
       "program_count": 19,
       "days_count": 2,
       "date_range": "2025-11-30~2025-12-01",
@@ -12979,8 +12979,8 @@
       ]
     },
     {
-      "channel_id": "彩虹電影",
-      "channel_name": "彩虹電影",
+      "channel_id": "彩虹电影",
+      "channel_name": "彩虹电影",
       "program_count": 19,
       "days_count": 2,
       "date_range": "2025-11-30~2025-12-01",
@@ -12990,8 +12990,8 @@
       ]
     },
     {
-      "channel_id": "彩虹頻道",
-      "channel_name": "彩虹頻道",
+      "channel_id": "彩虹电影",
+      "channel_name": "彩虹电影",
       "program_count": 96,
       "days_count": 2,
       "date_range": "2025-11-30~2025-12-01",
@@ -14352,8 +14352,8 @@
       ]
     },
     {
-      "channel_id": "松視1臺",
-      "channel_name": "松視1臺",
+      "channel_id": "松视1",
+      "channel_name": "松视1",
       "program_count": 24,
       "days_count": 2,
       "date_range": "2025-11-30~2025-12-01",
@@ -14363,8 +14363,8 @@
       ]
     },
     {
-      "channel_id": "松視1頻道",
-      "channel_name": "松視1頻道",
+      "channel_id": "松视1",
+      "channel_name": "松视1",
       "program_count": 24,
       "days_count": 2,
       "date_range": "2025-11-30~2025-12-01",
@@ -14374,8 +14374,8 @@
       ]
     },
     {
-      "channel_id": "松視2臺",
-      "channel_name": "松視2臺",
+      "channel_id": "松视2",
+      "channel_name": "松视2",
       "program_count": 24,
       "days_count": 2,
       "date_range": "2025-11-30~2025-12-01",
@@ -14385,8 +14385,8 @@
       ]
     },
     {
-      "channel_id": "松視2頻道",
-      "channel_name": "松視2頻道",
+      "channel_id": "松视2",
+      "channel_name": "松视2",
       "program_count": 24,
       "days_count": 2,
       "date_range": "2025-11-30~2025-12-01",
@@ -14396,8 +14396,8 @@
       ]
     },
     {
-      "channel_id": "松視3臺",
-      "channel_name": "松視3臺",
+      "channel_id": "松视3",
+      "channel_name": "松视3",
       "program_count": 24,
       "days_count": 2,
       "date_range": "2025-11-30~2025-12-01",
@@ -14407,8 +14407,8 @@
       ]
     },
     {
-      "channel_id": "松視3頻道",
-      "channel_name": "松視3頻道",
+      "channel_id": "松视3",
+      "channel_name": "松视3",
       "program_count": 26,
       "days_count": 2,
       "date_range": "2025-11-30~2025-12-01",
@@ -14418,8 +14418,8 @@
       ]
     },
     {
-      "channel_id": "松視4臺",
-      "channel_name": "松視4臺",
+      "channel_id": "松视4",
+      "channel_name": "松视4",
       "program_count": 37,
       "days_count": 2,
       "date_range": "2025-11-30~2025-12-01",
@@ -14429,8 +14429,8 @@
       ]
     },
     {
-      "channel_id": "松視4頻道",
-      "channel_name": "松視4頻道",
+      "channel_id": "松视4",
+      "channel_name": "松视4",
       "program_count": 37,
       "days_count": 2,
       "date_range": "2025-11-30~2025-12-01",
@@ -14520,8 +14520,8 @@
       ]
     },
     {
-      "channel_id": "極限電源",
-      "channel_name": "極限電源",
+      "channel_id": "极限电影",
+      "channel_name": "极限电影",
       "program_count": 29,
       "days_count": 2,
       "date_range": "2025-11-30~2025-12-01",
@@ -14531,8 +14531,8 @@
       ]
     },
     {
-      "channel_id": "樂活頻道",
-      "channel_name": "樂活頻道",
+      "channel_id": "乐活",
+      "channel_name": "乐活",
       "program_count": 66,
       "days_count": 2,
       "date_range": "2025-11-30~2025-12-01",
@@ -19248,8 +19248,8 @@
       ]
     },
     {
-      "channel_id": "香蕉臺",
-      "channel_name": "香蕉臺",
+      "channel_id": "香蕉台",
+      "channel_name": "香蕉台",
       "program_count": 60,
       "days_count": 2,
       "date_range": "2025-11-30~2025-12-01",
@@ -19259,8 +19259,8 @@
       ]
     },
     {
-      "channel_id": "驚艷成人",
-      "channel_name": "驚艷成人",
+      "channel_id": "惊艳台",
+      "channel_name": "惊艳台",
       "program_count": 22,
       "days_count": 2,
       "date_range": "2025-11-30~2025-12-01",
@@ -19270,8 +19270,8 @@
       ]
     },
     {
-      "channel_id": "驚豔成人電影臺",
-      "channel_name": "驚豔成人電影臺",
+      "channel_id": "惊艳台",
+      "channel_name": "惊艳台",
       "program_count": 22,
       "days_count": 2,
       "date_range": "2025-11-30~2025-12-01",

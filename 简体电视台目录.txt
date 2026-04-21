@@ -362,22 +362,22 @@ CARTOONITO
 LOVE NATURE 4K
 ROCK ENTERTAINMENT
 ROCK EXTREME
-彩虹频道
-彩虹E频道
+彩虹K
+彩虹E
 彩虹电影
-K频道
-松视1频道
-松视2频道
-松视3频道
-松视4频道
-潘多拉完美台
-潘多拉粉红台
-极限电源
-惊艳成人
+彩虹K
+松视1
+松视2
+松视3
+松视4
+潘朵啦玩美
+潘朵啦粉红
+极限电影
+惊艳台
 香蕉台
-乐活频道
+乐活
 玩家频道
-HAPPY
+Happy
 HOT
 天映经典香港
 天映经典柬埔寨
@@ -555,7 +555,7 @@ Lifetime香港
 Food Network香港
 亚洲美食台香港
 旅游频道香港
-居家乐活频道香港
+居家乐活香港
 Netflix香港
 深圳卫视香港
 CCTV-1香港
@@ -863,7 +863,7 @@ LUXE TV HD
 Lifetime HD
 KLT-靖天国际台HD
 滚动力 rollor
-HGTV居家乐活频道
+HGTV居家乐活
 车迷TV HD
 美食星球HD
 亚洲美食频道
@@ -1069,17 +1069,17 @@ My Cinema Europe HD 我的欧洲电影有线
 靖洋卡通有线
 Eurosport
 博斯无限台有线
-松视4台
-Pandora潘朵啦高画质玩美台
-Pandora潘朵啦高画质粉红台
-松视1台
-松视2台
-松视3台
-彩虹E台
-彩虹Movie台
+松视4
+潘朵啦玩美
+潘朵啦粉红
+松视1
+松视2
+松视3
+彩虹E
+彩虹电影
 HOT频道
-HAPPY频道
-惊艳成人电影台
+Happy
+惊艳台
 wedotv Movies
 JStar极限台电影频道
 AsianFoodNetwork亚洲美食频道
