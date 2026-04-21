@@ -16907,8 +16907,8 @@
       ]
     },
     {
-      "channel_id": "玩家频道",
-      "channel_name": "玩家频道",
+      "channel_id": "玩家",
+      "channel_name": "玩家",
       "program_count": 96,
       "days_count": 2,
       "date_range": "2025-11-30~2025-12-01",
